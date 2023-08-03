@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>cols</title>
+	<style type="text/css">
+		.container{
+			column-count: 6;
+			column-width: 200px;
+			column-rule: 5px solid black;
+		}
+		.in{
+			color: white;
+			background-color: black;
+			border-radius: 5px;
+			width: 200px;
+			break-inside: avoid;
+			height: 100px;
+			column-gap: 3rem;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="in"></div>
+		<div class="in"></div>
+			<div class="in"></div>
+			<div class="in"></div>j 
+				<div class="in"></div>
+					<div class="in"></div>
+</div>
+</body>
+</html>

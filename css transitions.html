@@ -1,0 +1,63 @@
+
+<div>
+    <button>Back</button>
+    <a href="www.1.com">1</a>
+    <a href="www.2.com">2</a>
+    <a href="www.3.com">3</a>
+    <a href="www.5.com">4</a>
+    <a href="www.5.com">5</a>
+
+    <button>Next</button>
+</div>
+
+<style>
+
+a{
+    margin-right: 5px;
+}
+button{
+    margin-right: 5px;
+    border: 2px grey solid;
+    width: 40px;
+    height: 30px;
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+div{
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    
+}
+
+#stretch-div{
+    margin-top: 20px;
+    width: 350px;
+    height: 70px;
+}
+
+#stretch-button{
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    transition: width 5s,height 2s;
+    transition-duration: 3s;
+
+}
+#stretch-button:hover{
+    width: 200px;
+    height: 50px;
+}
+
+</style>
+
+<div id="stretch-div">
+    <button id="stretch-button">stretch</button>
+    
+</div>
